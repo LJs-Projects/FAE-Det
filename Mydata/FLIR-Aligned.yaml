@@ -1,0 +1,15 @@
+train: /DATASET/FLIR/images/train/
+val: /DATASET/FLIR/images/test/
+test: /DATASET/FLIR/images/test/
+
+train_ir: /DATASET/FLIR/image/train/
+val_ir: /DATASET/FLIR/image/test/
+test_ir: /DATASET/FLIR/image/test/
+
+# number of classes
+nc: 3
+
+# class names
+names: [ 'person','car','bicycle']
+
+

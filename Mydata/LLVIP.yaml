@@ -1,0 +1,13 @@
+train: /DATASET/LLVIP/images/train/
+val: /DATASET/LLVIP/images/test/
+test: /DATASET/LLVIP/images/test/
+
+train_ir: /DATASET/LLVIP_v8/image/train/
+val_ir: /DATASET/LLVIP/image/test/
+test_ir: /DATASET/LLVIP/image/test/
+
+# number of classes
+nc: 1
+
+# class names
+names: ['Person']

@@ -1,0 +1,18 @@
+#=  ----------------------------------------
+#= 2024-11-12 修改
+#= 采用  https://github.com/FreeformRobotics/EAEFNet  的设置  与 FusionMamba相同
+#= -----------------------------------------
+
+train: /DATASET/M3FD/images/train/
+val: /DATASET/M3FD/images/test/
+test: /DATASET/M3FD/images/test/
+
+train_ir: /DATASET/M3FD/image/train/
+val_ir: /DATASET/M3FD/image/test/
+test_ir: /DATASET/M3FD/image/test/
+
+# number of classes
+nc: 6
+
+# class names
+names: ['People', 'Car', 'Bus', 'Lamp', 'Motorcycle', 'Truck']
